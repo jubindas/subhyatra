@@ -1,0 +1,47 @@
+/* Reset & Body */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Ensure there is no gap below navbar */
+  .main {
+    padding-top: 70px; /* Matches the navbar height */
+  }
+  
+  /* Hero Section */
+  .hero {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh; /* Full height to avoid gaps */
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Background Image */
+  .hero img {
+    display: block; /* Prevents unwanted spacing */
+    width: 100%;
+    height: 100vh; /* Cover full viewport height */
+    object-fit: cover;
+  }
+  
+  /* Hero Text */
+  .hero-tag {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  
+  .hero-tag h1 {
+    color: white;
+  }
+  
+  .hero-tag p {
+    color: white;
+  }
+  

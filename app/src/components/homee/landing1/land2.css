@@ -1,0 +1,47 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff;
+  height: 300px;
+    margin-bottom: 40px; /* Ensures spacing between components */
+  }
+  
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 16px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #555;
+    max-width: 600px;
+    margin-bottom: 24px;
+  }
+  
+  .cta-button {
+    background-color: #ff0000;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #333;
+  }
+  

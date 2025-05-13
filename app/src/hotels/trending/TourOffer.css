@@ -1,0 +1,69 @@
+.tour-packages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .exclusive-tour {
+    flex: 1 1 100%;
+    background: url('exclusive.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .exclusive-tour h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .exclusive-tour p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .exclusive-tour button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tour-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .tour-card {
+    position: relative;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .tour-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tour-overlay h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .tour-overlay p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+  }

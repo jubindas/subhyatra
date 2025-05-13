@@ -1,0 +1,135 @@
+.my-hotels-container {
+  max-width: 1200px;
+  margin: 120px auto 50px auto; /* top margin increased */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+ 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.add-hotel-btn {
+  padding: 12px 24px;
+  width: 150px;
+  background-color: #ff5a5f; /* attractive reddish color */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.add-hotel-btn:hover {
+  background-color: #e0484d;
+  transform: translateY(-2px);
+}
+
+.hotel-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 30px 0 20px 0; /* <-- added 30px top margin */
+  transition: box-shadow 0.3s;
+}
+
+.hotel-card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-name {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.hotel-description {
+  margin: 10px 0 20px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.hotel-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  flex: 1 1 200px;
+  background-color: #f1f3f5;
+  padding: 12px 16px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.95rem;
+  color: #555;
+  transition: background-color 0.3s;
+}
+
+.info-box:hover {
+  background-color: #e0e0e0;
+}
+
+.view-details-btn {
+  padding: 10px 22px;
+  width: 150px;
+  background-color: #34a853; /* green for action */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.add-hotel-btn,
+.view-details-btn,
+.update-hotel-btn {
+  padding: 10px 20px;
+  width: 170px;
+  background-color: #ff0000;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-hotel-btn:hover,
+.view-details-btn:hover,
+.update-hotel-btn:hover {
+  background-color: #a5a7a9;
+}
+
+.add-hotel-btn a,
+.view-details-btn a,
+.update-hotel-btn a {
+  color: black;
+  text-decoration: none !important; /* Force removal of underline */
+}

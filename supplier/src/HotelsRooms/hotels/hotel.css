@@ -1,0 +1,112 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  padding: 20px;
+}
+
+.hotel-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+  
+}
+
+.hotel-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.hotel-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.hotel-form input,
+.hotel-form select,
+.hotel-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.hotel-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.hotel-form input:focus,
+.hotel-form select:focus,
+.hotel-form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.hotel-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hotel-form button:hover {
+  background-color: #0056b3;
+}
+
+.hotel-form input::placeholder,
+.hotel-form select::placeholder,
+.hotel-form textarea::placeholder {
+  color: #999;
+}
+
+/* Flexbox Layout for Address and Pincode */
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form-group input {
+  width: 48%; /* Set width for both fields */
+}
+
+/* Small screen responsiveness */
+@media (max-width: 600px) {
+  .hotel-form {
+    padding: 20px;
+  }
+
+  .hotel-form h2 {
+    font-size: 1.6rem;
+  }
+
+  .form-group {
+    flex-direction: column; /* Stack the address and pincode fields vertically on small screens */
+  }
+
+  .form-group input {
+    width: 100%; /* Make both fields full width on small screens */
+  }
+}

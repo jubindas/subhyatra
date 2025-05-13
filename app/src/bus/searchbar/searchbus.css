@@ -1,0 +1,73 @@
+/* Container for the search bar */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: red;
+    width: 80%;
+    border-radius: 5px;
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+    gap: 10px; /* Spacing between input fields and button */
+  }
+  
+  /* Input and span fields styling */
+  .search-box {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    flex: 1 1 150px; /* Minimum width for responsiveness */
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  /* Search button styling */
+  .search-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-btn:hover {
+    background-color: #333;
+  }
+  
+  /* Header styles */
+  .header {
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .header p {
+    font-size: 18px;
+    color: gray;
+  }
+  
+  /* Calendar pop-up container */
+  .calendar-container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  

@@ -1,0 +1,47 @@
+.navbar {
+    position: fixed; /* Stick to the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    height: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 15px;
+    margin-right: 20px; /* Added right margin to the whole button group */
+}
+
+.nav-button {
+    background-color: rgb(255, 0, 0);
+    color: #000000;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+}
+
+.nav-button:hover {
+    background-color: #515151;
+    transform: scale(1.05);
+}
